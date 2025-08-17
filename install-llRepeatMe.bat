@@ -6,7 +6,7 @@ set prog=llrepeatme
 echo "msbuild=%msbuild%"
 if not exist "%msbuild%" (
 echo Fall back msbuild not found at "%msbuild%"
-set msbuild=F:\opt\VisualStudio\2022\Preview\MSBuild\Current\Bin\MSBuild.exe
+set msbuild=G:\opt\VisualStudio\2022\Preview\MSBuild\Current\Bin\MSBuild.exe
 )
 echo "Msbuild=%msbuild%"
 
